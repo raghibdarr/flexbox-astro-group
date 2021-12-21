@@ -53,6 +53,10 @@ nav a {
     color: white;
 }
 
+a:hover {
+    color: yellow;
+  }
+
 main {
     position: relative;
     top: 7.8rem;
@@ -85,7 +89,7 @@ main {
 .projects-container {
     display: flex;
     width: 100%;
-    min-height: 50rem;
+    min-height: 30rem;
     background-color: black;
     border-top: blanchedalmond 1.5rem solid;
     flex-direction: column;
@@ -102,7 +106,7 @@ main {
 
 }
 
-.projects-brief h1 {
+.section-heading {
     font-family: "Space Mono", monospace;
     font-size: 3rem;
     margin-bottom: 0;
@@ -128,8 +132,8 @@ main {
 }
 
 .project-content .project-img {
-    width: 20rem;
-    height: 14rem;
+    height: 20rem;
+    flex-grow: 1.25;
 }
 
 .project-content p {
@@ -137,3 +141,37 @@ main {
     font-weight: 500;
     text-align: center;
 }
+
+.team-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding: 20px 10px 20px;
+    background-color: grey;
+}
+
+.team-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.team-member img {
+    height: 40rem;
+    padding-top: 50px;
+}
+
+.fullname {
+    font-family: "Space Mono", monospace;
+    padding: 0;
+}
+
+.role {
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    font-style: italic;
+    padding-bottom: 20px;
+}
+

@@ -175,3 +175,14 @@ main {
     padding-bottom: 20px;
 }
 
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    height: auto;
+    margin: 180px 0 70px;
+    
+
+}

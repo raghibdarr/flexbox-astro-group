@@ -1,0 +1,139 @@
+html {
+    font-family: 'Roboto', sans-serif;
+    background-color: #041E33;
+    color: white;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+header {
+    top: 0;
+    position: fixed;
+    height: 125px;
+    width: 100%;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.2rem 0 0.2rem;
+    background-color: #041E33;
+    border-bottom: solid 1px #c6c1c1;
+}
+
+
+header .logo {
+    font-family: 'Space Mono', monospace;
+    font-weight: 600;
+    font-size: 60px;
+    margin: 0 auto;
+}
+
+nav {
+    
+}
+
+nav ul {
+    color: white;
+    display: flex;
+    padding: 0;
+    
+}
+
+nav li {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: white;
+}
+
+main {
+    position: relative;
+    top: 7.8rem;
+}
+
+.mission-container {
+    background-image: url("https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80");
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 40rem;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    top: 0;
+}
+
+.mission-container h1 {
+    font-size: 6rem;
+    align-items: center;
+    padding: 0 0 0 4rem;
+    font-family: 'Space Mono', monospace;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 1.2;
+    margin: auto 0;
+}
+
+.projects-container {
+    display: flex;
+    width: 100%;
+    min-height: 50rem;
+    background-color: black;
+    border-top: blanchedalmond 1.5rem solid;
+    flex-direction: column;
+}
+
+.projects-brief {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.projects-brief h1 {
+    font-family: "Space Mono", monospace;
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+.projects-brief p {
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-bottom: 4rem;
+}
+
+.projects-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 40px;
+}
+
+.project-content {
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.project-content .project-img {
+    width: 20rem;
+    height: 14rem;
+}
+
+.project-content p {
+    font-family: "Space Mono", monospace;
+    font-weight: 500;
+    text-align: center;
+}
